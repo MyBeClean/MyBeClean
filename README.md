@@ -86,7 +86,11 @@ i'm a **student** and **aspiring developer** who enjoys turning **ideas** into s
 </tr>
 </table>
 
-## 🛠️ engines i use
+## 🛠️ Engines i use
 
 ![Unity](https://cdn.phototourl.com/free/2026-09-21-024d26d3-163f-4f57-94b2-40db62e0b7e1.png)
 ![Godot](https://cdn.phototourl.com/free/2026-09-21-a188fcf2-844e-4974-9af7-596e2b85876a.png)
+
+## Thanks for visited my GitHub 🐈
+
+Hope you like it🤓
