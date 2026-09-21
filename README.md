@@ -1,115 +1,137 @@
-👋 hey, i'm syamsul
+<div align="center">👋 hey, i'm syamsul
 
-«🎮 game developer • 💻 programmer • 🎨 creator • 🧠 curious learner»
+🎮 game developer • 💻 programmer • 🎨 creator • 🧠 curious learner
+
+building things, breaking things, and figuring out why they broke.
+
+<br>"Profile Views" (https://komarev.com/ghpvc/?username=YOUR_USERNAME&label=profile%20views&color=grey&style=flat)
+"GitHub followers" (https://img.shields.io/github/followers/YOUR_USERNAME?label=followers&style=flat)
+"GitHub stars" (https://img.shields.io/github/stars/YOUR_USERNAME?label=stars&style=flat)
+
+</div>---
+
+🧠 about me
 
 i'm someone who likes building things, breaking things, and figuring out why they broke.
 
 i learn best by actually making something, experimenting, and understanding how things work instead of simply memorizing them.
 
----
+<table>
+<tr>
+<td width="50%">🎮 interests
 
-🧠 about me
+- 🎮 game development
+- 💻 programming
+- 🎨 3d modeling
+- 🎬 video editing
+- 🖼️ visual design
+- 🧩 gameplay systems
 
-- 🎮 interested in game development
-- 💻 learning programming & software development
-- 🎨 enjoy 3d modeling, video editing, and visual design
-- 🧩 like solving problems through logic and experimentation
-- 🔧 prefer understanding how something works rather than blindly copying it
-- 🌌 interested in science, technology, physics, and space
-- 🐧 curious about linux and open-source software
-- 📚 constantly learning, usually by turning random ideas into experiments
+</td><td width="50%">🔬 curiosity
+
+- 🌌 science & space
+- ⚛️ physics
+- 🤖 artificial intelligence
+- 🧠 computer science
+- 🐧 linux & open source
+- 🔧 how things work
+
+</td>
+</tr>
+</table>---
+
+🧩 how i think
+
+«"don't just use technology. understand it."»
 
 i don't really like the mindset of:
 
-«"just memorize it."»
+"just memorize it."
 
 i'd rather ask:
 
-«"why does it work?"»
+"why does it work?"
 
-because apparently my brain decided that making things unnecessarily complicated is a valid learning method. 🗿
-
----
-
-⚙️ how i learn
-
-idea
- ↓
-experiment
- ↓
-something breaks
- ↓
-figure out why
- ↓
-fix it
- ↓
-understand it
- ↓
-make it better
-
-i'm still learning, and i make mistakes.
-
-but every bug is basically a tiny unpaid teacher. 🤭
-
----
-
-🛠️ things i enjoy
-
-programming
-
-c#       █████████░
-python   ████████░░
-c++      █████░░░░░
-
-creative work
-
-🎮 game development
-🎨 3d modeling
-🎬 video editing
-🖼️ visual design
-🧩 gameplay systems
-
----
-
-🔍 things that make me curious
-
-physics
-space
-artificial intelligence
-computer science
-game technology
-open-source software
-how things work
-why things break
-and occasionally, completely unnecessary experiments
-
----
-
-🧪 my philosophy
-
-«don't just use technology. understand it.»
-
-i want to become someone who can look at a problem and think:
-
-"how can i build this?"
-
-rather than:
-
-"where can i copy this from?"
+i prefer understanding the logic behind something rather than blindly copying it.
 
 i use tools, documentation, and ai to learn faster, but the goal is still to understand what i'm building.
 
 ---
 
+⚙️ how i learn
+
+<div align="center">       💡 idea
+          │
+          ▼
+     🧪 experiment
+          │
+          ▼
+     💥 something breaks
+          │
+          ▼
+     🔍 figure out why
+          │
+          ▼
+       🔧 fix it
+          │
+          ▼
+     🧠 understand it
+          │
+          ▼
+       🚀 improve
+
+</div>«every bug is basically a tiny unpaid teacher. 🤭»
+
+---
+
+🛠️ things i enjoy
+
+💻 programming
+
+language| experience
+"c#"| █████████░
+"python"| ████████░░
+"c++"| █████░░░░░
+
+🎨 creative work
+
+🎮  game development
+🎨  3d modeling
+🎬  video editing
+🖼️  visual design
+🧩  gameplay systems
+
+---
+
+🔍 things that make me curious
+
+<div align="center">🌌 science| 💻 technology| 🧠 ideas
+physics| artificial intelligence| how things work
+space| computer science| why things break
+quantum physics| game technology| weird experiments
+evolution| open source| "what if...?"
+
+</div>and occasionally, completely unnecessary experiments.
+
+because apparently curiosity doesn't come with an off switch. 🗿
+
+---
+
 🌱 currently learning
 
-- programming fundamentals
-- game development
-- 3d workflows
-- software engineering
-- git & github
-- linux
-- computer science fundamentals
+programming fundamentals
+        ↓
+game development
+        ↓
+3d workflows
+        ↓
+software engineering
+        ↓
+git & github
+        ↓
+linux
+        ↓
+computer science fundamentals
 
 ---
 
@@ -117,12 +139,12 @@ i use tools, documentation, and ai to learn faster, but the goal is still to und
 
 when i'm not coding, i'm probably:
 
-🎮 playing games
+«🎮 playing games
 🎬 editing something
 🎨 messing around in blender
 🧠 thinking about some weird scientific question
 🌌 looking at space-related stuff
-💬 talking with nur
+💬 talking with nur»
 
 basically, my brain rarely closes the background processes. 😹
 
@@ -134,12 +156,20 @@ i'm not trying to become an expert overnight.
 
 i'm just trying to make the next thing i build better than the last one.
 
-learn → build → fail → understand → improve
+<div align="center">"learn → build → fail → understand → improve"
 
-🚀 keep building.
+<br>🚀 keep building.
 
 🧠 keep questioning.
 
 🔧 keep breaking things.
 
-because sometimes the fastest way to understand something is to build it yourself and accidentally destroy it first. 🗿
+</div>---
+
+<div align="center">“sometimes the fastest way to understand something is to build it yourself and accidentally destroy it first.” 🗿
+
+<br><br>
+
+thanks for stopping by 👋
+
+</div>
