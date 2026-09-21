@@ -27,13 +27,61 @@ i'm a **student** and **aspiring developer** who enjoys turning **ideas** into s
 
 ## 🧠 My skill
 
-| skill | experience |
-| :--- | :--- |
-| c# | █████████░ |
-| python | ████████░░ |
-| c++ | █████░░░░░ |
+<table>
+<tr>
 
-| skill | experience |
-| :--- | :--- |
-| Unity | ███████░░░ |
-| Godot | ███████░░░ |
+<td width="50%" valign="top">
+
+### 💻 programming
+
+<table>
+<tr>
+<th>skill</th>
+<th>experience</th>
+</tr>
+
+<tr>
+<td>C#</td>
+<td>█████████░</td>
+</tr>
+
+<tr>
+<td>Python</td>
+<td>████████░░</td>
+</tr>
+
+<tr>
+<td>C++</td>
+<td>█████░░░░░</td>
+</tr>
+
+</table>
+
+</td>
+
+<td width="50%" valign="top">
+
+### 🎮 game engine
+
+<table>
+<tr>
+<th>skill</th>
+<th>experience</th>
+</tr>
+
+<tr>
+<td>Unity</td>
+<td>███████░░░</td>
+</tr>
+
+<tr>
+<td>Godot</td>
+<td>███████░░░</td>
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+</table>
