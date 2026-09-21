@@ -1,4 +1,4 @@
-## Welcome to my GitHub👋
+# Welcome to my GitHub👋
 
 Hai, I'm **Syamsul Putra Rinjani**.
 You can call me **Syamsul**.
@@ -24,3 +24,16 @@ outside of coding, i enjoy **games, science, technology, and exploring random id
 ## ✨ Summary
 
 i'm a **student** and **aspiring developer** who enjoys turning **ideas** into something real through **programming, game development, 3d modeling, and video editing**. i **learn** best by **experimenting, solving problems, and understanding** how things work rather than simply memorizing them. i'm naturally **curious about technology, science, physics, and space**, and i enjoy **exploring new tools and ideas** even when they inevitably break something along the way. my goal is to **keep learning, keep creating, and become better** at turning my ideas into things that **actually work**
+
+## 🧠 My skill
+
+| skill | experience |
+| :--- | :--- |
+| c# | █████████░ |
+| python | ████████░░ |
+| c++ | █████░░░░░ |
+
+| skill | experience |
+| :--- | :--- |
+| Unity | ███████░░░ |
+| Godot | ███████░░░ |
