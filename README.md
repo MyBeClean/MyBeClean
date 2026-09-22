@@ -1,6 +1,11 @@
 # 👋 welcome to my github
 
-hi, i'm **syamsul putra rinjani**.  
+<table>
+<tr>
+<td width="65%" valign="top">
+
+## hi, i'm **syamsul putra rinjani**
+
 you can call me **syamsul**.
 
 i'm a student who enjoys **building things with code and creativity**.
@@ -14,6 +19,16 @@ my main interests are:
 - 🔬 science & technology
 
 > **curiosity is where most of my projects start.**
+
+</td>
+
+<td width="35%" align="center" valign="middle">
+
+<img src="https://media1.giphy.com/media/v1.Y2lkPTZjMDliOTUyMDZiYzBpazh1OHp1bDgwY3R3cDB1eDI0eHNtZGEzNTkybHpmdHRndiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/k8kITi9SAwe9JWbUaH/giphy.gif" width="260">
+
+</td>
+</tr>
+</table>
 
 ---
 
@@ -38,8 +53,8 @@ both are technically learning. 🗿
 | area | what i do |
 |---|---|
 | 🎮 game development | gameplay systems, mechanics, interaction, debugging |
-| 💻 programming | write, understand, debug, and improve code |
-| 🧩 problem solving | logic, experimentation, troubleshooting |
+| 💻 programming | writing, understanding, debugging, and improving code |
+| 🧩 problem solving | logic, experimentation, and troubleshooting |
 | 🎨 3d | modeling and editing 3d assets |
 | 🎬 video | editing and visual content |
 | 🔧 debugging | finding problems and figuring out why they happen |
@@ -103,10 +118,12 @@ both are technically learning. 🗿
 ## 📊 github statistics
 
 <p align="center">
-  <img
-    src="https://ghstats.dev/api/card?username=MyBeClean"
-    alt="github stats"
-  />
+
+<img
+  src="https://ghstats.dev/api/card?username=MyBeClean"
+  alt="github stats"
+/>
+
 </p>
 
 ---
@@ -114,26 +131,26 @@ both are technically learning. 🗿
 ## 🔥 contribution streak
 
 <p align="center">
-  <img
-    src="https://streak-stats.demolab.com/?user=MyBeClean&hide_border=true"
-    alt="github streak"
-  />
+
+<img
+  src="https://streak-stats.demolab.com/?user=MyBeClean&hide_border=true"
+  alt="github streak"
+/>
+
 </p>
 
 ---
 
-## 🚀 what i'm working toward
+## 🚀 currently exploring
 
-i want to become a better developer by continuously turning ideas into real projects.
-
-my current direction is focused on:
+right now, i'm mainly exploring:
 
 - 🎮 game development
 - 🧠 gameplay programming
 - 🎨 3d environments and assets
-- 💻 understanding systems instead of blindly copying code
-- 🔬 experimenting with technology and physics
-- 🛠️ building projects that i can actually finish
+- 💻 programming and system design
+- 🔬 technology, physics, and space
+- 🛠️ building projects from ideas into working prototypes
 
 > **learn → experiment → break things → understand → rebuild → repeat**
 
@@ -143,7 +160,11 @@ my current direction is focused on:
 
 <p align="center">
 
-<img src="https://opengameart.org/sites/default/files/palme-animated-x2.gif" width="220">
+<img
+  src="https://opengameart.org/sites/default/files/palme-animated-x2.gif"
+  width="220"
+  alt="animated pixel palm tree"
+/>
 
 </p>
 
