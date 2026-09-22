@@ -1,96 +1,180 @@
-# Welcome to my GitHub👋
+# 👋 welcome to my github
 
-Hai, I'm **Syamsul Putra Rinjani**.
-You can call me **Syamsul**.
-
-## 📖 About me
+hi, i'm **syamsul putra rinjani**.  
+you can call me **syamsul**.
 
 i'm a student who enjoys **building things with code and creativity**.
-i'm interested in **game development, programming, 3d modeling, and video editing**.
-i learn by **experimenting, solving problems, and understanding how things work** rather than simply memorizing them.
-outside of coding, i enjoy **games, science, technology, and exploring random ideas**.
+
+my main interests are:
+
+- 🎮 game development
+- 💻 programming
+- 🎨 3d modeling
+- 🎬 video editing
+- 🔬 science & technology
+
 > **curiosity is where most of my projects start.**
 
-## 🤔 What i can do?
+---
 
-- 🎮 build gameplay systems and mechanics
-- 💻 write and understand code
-- 🧩 solve problems through logic and experimentation
-- 🎨 create and edit 3d assets
-- 🎬 edit videos and create visual content
-- 🔧 debug and improve existing systems
-- 🌱 learn new tools and technologies independently
+## 📖 about me
 
-## ✨ Summary
+i learn best by **experimenting, solving problems, and understanding how things work** rather than simply memorizing them.
 
-i'm a **student** and **aspiring developer** who enjoys turning **ideas** into something real through **programming, game development, 3d modeling, and video editing**. i **learn** best by **experimenting, solving problems, and understanding** how things work rather than simply memorizing them. i'm naturally **curious about technology, science, physics, and space**, and i enjoy **exploring new tools and ideas** even when they inevitably break something along the way. my goal is to **keep learning, keep creating, and become better** at turning my ideas into things that **actually work**
+i enjoy taking an idea, breaking it into smaller problems, experimenting with different approaches, and eventually turning it into something that actually works.
 
-## 🧠 My skill
+outside of programming, i enjoy **games, science, technology, physics, space, and exploring random ideas**.
+
+sometimes the experiments work.
+
+sometimes they completely destroy the project.
+
+both are technically learning. 🗿
+
+---
+
+## 🧠 what i can do
+
+| area | what i do |
+|---|---|
+| 🎮 game development | gameplay systems, mechanics, interaction, debugging |
+| 💻 programming | write, understand, debug, and improve code |
+| 🧩 problem solving | logic, experimentation, troubleshooting |
+| 🎨 3d | modeling and editing 3d assets |
+| 🎬 video | editing and visual content |
+| 🔧 debugging | finding problems and figuring out why they happen |
+| 🌱 learning | independently exploring new tools and technologies |
+
+---
+
+## 💻 programming
 
 <table>
 <tr>
 
 <td width="50%" valign="top">
 
-### 💻 programming
+### 💻 languages
 
-<table>
-<tr>
-<th>skill</th>
-<th>experience</th>
-</tr>
-
-<tr>
-<td>C#</td>
-<td>█████████░</td>
-</tr>
-
-<tr>
-<td>Python</td>
-<td>████████░░</td>
-</tr>
-
-<tr>
-<td>C++</td>
-<td>█████░░░░░</td>
-</tr>
-
-</table>
+| skill | experience |
+|---|---|
+| C# | █████████░ |
+| Python | ████████░░ |
+| C++ | █████░░░░░ |
 
 </td>
 
 <td width="50%" valign="top">
 
-### 🎮 game engine
+### 🎮 game engines
 
-<table>
-<tr>
-<th>skill</th>
-<th>experience</th>
-</tr>
-
-<tr>
-<td>Unity</td>
-<td>███████░░░</td>
-</tr>
-
-<tr>
-<td>Godot</td>
-<td>███████░░░</td>
-</tr>
-
-</table>
+| engine | experience |
+|---|---|
+| Unity | ███████░░░ |
+| Godot | ███████░░░ |
 
 </td>
 
 </tr>
 </table>
 
-## 🛠️ Engines i use
+> these bars represent my current experience, not some scientifically calculated developer power level. 😹
 
-![Unity](https://cdn.phototourl.com/free/2026-09-21-024d26d3-163f-4f57-94b2-40db62e0b7e1.png)
-![Godot](https://cdn.phototourl.com/free/2026-09-21-a188fcf2-844e-4974-9af7-596e2b85876a.png)
+---
 
-## Thanks for visited my GitHub 🐈
+## 🛠️ tools i use
 
-Hope you like it🤓
+<p align="center">
+
+<img src="https://cdn.phototourl.com/free/2026-09-21-024d26d3-163f-4f57-94b2-40db62e0b7e1.png" width="180">
+
+<img src="https://cdn.phototourl.com/free/2026-09-21-a188fcf2-844e-4974-9af7-596e2b85876a.png" width="180">
+
+</p>
+
+<p align="center">
+
+**unity** &nbsp; • &nbsp; **godot** &nbsp; • &nbsp; **blender** &nbsp; • &nbsp; **python** &nbsp; • &nbsp; **c#** &nbsp; • &nbsp; **c++**
+
+</p>
+
+---
+
+## 📊 github statistics
+
+<p align="center">
+  <img
+    src="https://ghstats.dev/api/card?username=MyBeClean"
+    alt="github stats"
+  />
+</p>
+
+---
+
+## 🔥 contribution streak
+
+<p align="center">
+  <img
+    src="https://streak-stats.demolab.com/?user=MyBeClean&hide_border=true"
+    alt="github streak"
+  />
+</p>
+
+---
+
+## 🚀 what i'm working toward
+
+i want to become a better developer by continuously turning ideas into real projects.
+
+my current direction is focused on:
+
+- 🎮 game development
+- 🧠 gameplay programming
+- 🎨 3d environments and assets
+- 💻 understanding systems instead of blindly copying code
+- 🔬 experimenting with technology and physics
+- 🛠️ building projects that i can actually finish
+
+> **learn → experiment → break things → understand → rebuild → repeat**
+
+---
+
+## 🌴 while you're here...
+
+<p align="center">
+
+<img src="https://opengameart.org/sites/default/files/palme-animated-x2.gif" width="220">
+
+</p>
+
+<p align="center">
+
+*just a palm tree doing absolutely nothing while my code breaks.*
+
+</p>
+
+---
+
+## 🐈 a little something about me
+
+i like **games, technology, science, space, editing, and weird ideas**.
+
+i also have a tendency to ask questions that somehow begin with programming and end somewhere around physics, the universe, or why a particular piece of code decided to break.
+
+that's probably how most of my projects start.
+
+---
+
+<p align="center">
+
+### thanks for visiting my github 🐈
+
+**keep learning. keep creating. keep experimenting.**
+
+</p>
+
+<p align="center">
+
+🌴 &nbsp; 🌴 &nbsp; 🌴 &nbsp; 🌴 &nbsp; 🌴
+
+</p>
