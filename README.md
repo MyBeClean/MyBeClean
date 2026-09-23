@@ -1,8 +1,8 @@
 # 👋 welcome to my github
 
-<table>
+<table width="100%" cellpadding="20">
 <tr>
-<td width="65%" valign="top">
+<td width="60%" valign="top">
 
 ## hi, i'm **syamsul putra rinjani**
 
@@ -22,9 +22,10 @@ my main interests are:
 
 </td>
 
-<td width="35%" align="center" valign="middle">
+<td width="40%" align="center" valign="middle">
 
-<img src="https://i.8upload.com/image/075aaf6e6eec7b17/i-was-a-jit-timeless-sticker-i-was-a-jit-timeless-totem-of-u.gif">
+<img src="https://i.8upload.com/image/075aaf6e6eec7b17/i-was-a-jit-timeless-sticker-i-was-a-jit-timeless-totem-of-u.gif" width="100%">
+
 </td>
 </tr>
 </table>
