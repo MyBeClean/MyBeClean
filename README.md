@@ -24,7 +24,7 @@ my main interests are:
 
 <td width="35%" align="center" valign="middle">
 
-<img src="https://media1.giphy.com/media/v1.Y2lkPTZjMDliOTUyMDZiYzBpazh1OHp1bDgwY3R3cDB1eDI0eHNtZGEzNTkybHpmdHRndiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/k8kITi9SAwe9JWbUaH/giphy.gif" width="260">
+<img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExNXNzcmY1eGQyMDJsZnJkMjd2YTBzcTY3YjU3b3U2cHVqbG8wcWhxciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Tki7sWHDoepb2/giphy.gif" width="260">
 
 </td>
 </tr>
