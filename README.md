@@ -24,7 +24,7 @@ my main interests are:
 
 <td width="35%" align="center" valign="middle">
 
-<img src="https://www.image2url.com/r2/default/gifs/1790128861133-2f309b94-6680-4749-af6f-abc943f77bf4.gif" width="400">
+<img src="https://i.8upload.com/image/075aaf6e6eec7b17/i-was-a-jit-timeless-sticker-i-was-a-jit-timeless-totem-of-u.gif">
 </td>
 </tr>
 </table>
