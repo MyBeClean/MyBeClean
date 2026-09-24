@@ -1,8 +1,12 @@
 # 👋 welcome to my github
 
-<table width="100%" cellpadding="20">
-<tr>
-<td width="60%" valign="top">
+<p align="center">
+
+<img src="https://i.8upload.com/image/cd87db568350b956/rapidsave-com-2hrrqkkxr3xf1.gif">
+
+</p>
+
+---
 
 ## hi, i'm **syamsul putra rinjani**
 
@@ -19,16 +23,6 @@ my main interests are:
 - 🔬 science & technology
 
 > **curiosity is where most of my projects start.**
-
-</td>
-
-<td width="40%" align="center" valign="middle">
-
-<img src="https://i.8upload.com/image/075aaf6e6eec7b17/i-was-a-jit-timeless-sticker-i-was-a-jit-timeless-totem-of-u.gif" width="100%">
-
-</td>
-</tr>
-</table>
 
 ---
 
@@ -119,8 +113,8 @@ both are technically learning. 🗿
 
 <p align="center">
 
-<img
-  src="https://ghstats.dev/api/card?username=MyBeClean"
+<img  
+  src="https://ghstats.dev/api/card?username=MyBeClean"  
   alt="github stats"
 />
 
@@ -132,8 +126,8 @@ both are technically learning. 🗿
 
 <p align="center">
 
-<img
-  src="https://streak-stats.demolab.com/?user=MyBeClean&hide_border=true"
+<img  
+  src="https://streak-stats.demolab.com/?user=MyBeClean&hide_border=true"  
   alt="github streak"
 />
 
@@ -160,9 +154,9 @@ right now, i'm mainly exploring:
 
 <p align="center">
 
-<img
-  src="https://opengameart.org/sites/default/files/palme-animated-x2.gif"
-  width="220"
+<img  
+  src="https://opengameart.org/sites/default/files/palme-animated-x2.gif"  
+  width="220"  
   alt="animated pixel palm tree"
 />
 
