@@ -127,10 +127,7 @@ both are technically learning. 🗿
 
 <p align="center">
 
-<img  
-  src="https://streak-stats.demolab.com/?user=MyBeClean&hide_border=true"  
-  alt="github streak"
-/>
+<img src="https://streak-stats.demolab.com/?user=MyBeClean&hide_border=true&background=040408&ring=22d3ee&fire=e879f9&currStreakNum=f8fafc&sideNums=f8fafc&currStreakLabel=a5f3fc&sideLabels=a5f3fc&dates=94a3b8">
 
 </p>
 
