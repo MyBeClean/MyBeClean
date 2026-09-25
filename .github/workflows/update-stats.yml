@@ -1,0 +1,244 @@
+name: Update Language Stats
+
+on:
+  schedule:
+    - cron: "17 0 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-language-stats:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Generate language statistics
+        env:
+          GH_TOKEN: ${{ github.token }}
+          OWNER: ${{ github.repository_owner }}
+        run: |
+          python3 <<'PY'
+          import json
+          import os
+          import urllib.error
+          import urllib.request
+          from html import escape
+          from pathlib import Path
+
+          OWNER = os.environ["OWNER"]
+          TOKEN = os.environ["GH_TOKEN"]
+          OUTPUT = Path("Assets/svg/languages.svg")
+
+          HEADERS = {
+              "Accept": "application/vnd.github+json",
+              "Authorization": f"Bearer {TOKEN}",
+              "X-GitHub-Api-Version": "2022-11-28",
+              "User-Agent": "MyBeClean-language-stats",
+          }
+
+          def get_json(url):
+              request = urllib.request.Request(url, headers=HEADERS)
+
+              with urllib.request.urlopen(request, timeout=30) as response:
+                  return json.load(response)
+
+          IGNORED = {
+              "HTML",
+              "CSS",
+              "SCSS",
+              "Less",
+              "Markdown",
+              "MDX",
+              "JSON",
+              "YAML",
+              "XML",
+              "SVG",
+              "TOML",
+              "INI",
+              "Makefile",
+              "Shell",
+              "Batchfile",
+              "Dockerfile",
+          }
+
+          language_bytes = {}
+          page = 1
+
+          while True:
+              url = (
+                  f"https://api.github.com/users/{OWNER}/repos"
+                  f"?per_page=100&page={page}"
+                  f"&type=owner&sort=updated"
+              )
+
+              repos = get_json(url)
+
+              if not repos:
+                  break
+
+              for repo in repos:
+                  if repo.get("fork"):
+                      continue
+
+                  if repo.get("archived"):
+                      continue
+
+                  full_name = repo["full_name"]
+
+                  try:
+                      languages = get_json(
+                          f"https://api.github.com/repos/{full_name}/languages"
+                      )
+                  except (
+                      urllib.error.HTTPError,
+                      urllib.error.URLError
+                  ):
+                      continue
+
+                  for language, amount in languages.items():
+                      if language in IGNORED:
+                          continue
+
+                      language_bytes[language] = (
+                          language_bytes.get(language, 0) + amount
+                      )
+
+              if len(repos) < 100:
+                  break
+
+              page += 1
+
+          total = sum(language_bytes.values())
+
+          if total == 0:
+              rows = [
+                  ("No programming languages detected", 100.0)
+              ]
+          else:
+              rows = sorted(
+                  (
+                      (
+                          language,
+                          amount / total * 100
+                      )
+                      for language, amount in language_bytes.items()
+                  ),
+                  key=lambda item: item[1],
+                  reverse=True
+              )[:8]
+
+          palette = [
+              "#22d3ee",
+              "#e879f9",
+              "#a5f3fc",
+              "#22d3ee",
+              "#e879f9",
+              "#a5f3fc",
+              "#22d3ee",
+              "#e879f9"
+          ]
+
+          width = 900
+          height = 116 + len(rows) * 40 + 42
+
+          parts = [
+              f'<svg xmlns="http://www.w3.org/2000/svg" '
+              f'width="{width}" height="{height}" '
+              f'viewBox="0 0 {width} {height}">',
+
+              '<rect width="900" height="100%" rx="18" fill="#040408"/>',
+
+              '<text x="42" y="48" fill="#22d3ee" '
+              'font-family="Arial, Helvetica, sans-serif" '
+              'font-size="24" font-weight="700">'
+              'LANGUAGE ACTIVITY'
+              '</text>',
+
+              '<text x="42" y="76" fill="#94a3b8" '
+              'font-family="Arial, Helvetica, sans-serif" '
+              'font-size="13">'
+              'Automatically generated from public repositories'
+              '</text>',
+
+              '<line x1="42" y1="98" x2="858" y2="98" '
+              'stroke="#1e293b"/>'
+          ]
+
+          y = 128
+
+          for index, (language, percent) in enumerate(rows):
+
+              label = escape(language)
+
+              bar_width = max(
+                  4,
+                  650 * percent / 100
+              )
+
+              color = palette[index % len(palette)]
+
+              parts.extend([
+                  f'<text x="42" y="{y + 13}" '
+                  'fill="#f8fafc" '
+                  'font-family="Arial, Helvetica, sans-serif" '
+                  'font-size="15">'
+                  f'{label}'
+                  '</text>',
+
+                  f'<rect x="170" y="{y}" '
+                  'width="650" height="16" rx="8" '
+                  'fill="#111827"/>',
+
+                  f'<rect x="170" y="{y}" '
+                  f'width="{bar_width:.2f}" '
+                  'height="16" rx="8" '
+                  f'fill="{color}"/>',
+
+                  f'<text x="858" y="{y + 13}" '
+                  'text-anchor="end" '
+                  'fill="#a5f3fc" '
+                  'font-family="Arial, Helvetica, sans-serif" '
+                  f'font-size="14">{percent:.1f}%</text>'
+              ])
+
+              y += 40
+
+          parts.append(
+              f'<text x="42" y="{y + 20}" '
+              'fill="#94a3b8" '
+              'font-family="Arial, Helvetica, sans-serif" '
+              'font-size="12">'
+              'Generated by GitHub Actions • MyBeClean'
+              '</text>'
+          )
+
+          parts.append("</svg>")
+
+          OUTPUT.parent.mkdir(
+              parents=True,
+              exist_ok=True
+          )
+
+          OUTPUT.write_text(
+              "\n".join(parts) + "\n",
+              encoding="utf-8"
+          )
+
+          print(f"Updated {OUTPUT}")
+          PY
+
+      - name: Commit updated banner
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add Assets/svg/languages.svg
+
+          git diff --cached --quiet || \
+            git commit -m "chore: update language stats"
+
+          git push
