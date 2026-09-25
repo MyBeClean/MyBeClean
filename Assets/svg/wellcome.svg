@@ -1,0 +1,131 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300" role="img" aria-label="Neon Flicker animation for WELLCOME">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Righteous&amp;display=swap');
+      
+      .neon-letter {
+        filter: url(#glow);
+        animation: flicker 2s infinite alternate;
+      }
+      
+      @keyframes flicker {
+        0%, 19%, 21%, 23%, 25%, 54%, 56%, 100% { 
+          opacity: 1; 
+          filter: url(#glow); 
+        }
+        20%, 24%, 55% { 
+          opacity: 0.4; 
+          filter: none; 
+        }
+      }
+    </style>
+    
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <rect width="800" height="300" fill="#0f172a"/>
+  
+  
+        <text x="173" y="150" 
+          font-family="'Righteous', cursive" 
+          font-size="80" 
+          fill="none"
+          stroke="#ff00ff"
+          stroke-width="1"
+          text-anchor="middle"
+          dominant-baseline="middle"
+          class="neon-letter"
+          style="animation-delay: 0.4275849231053144s;">
+          W
+        </text>
+        <text x="229" y="150" 
+          font-family="'Righteous', cursive" 
+          font-size="80" 
+          fill="none"
+          stroke="#ff00ff"
+          stroke-width="1"
+          text-anchor="middle"
+          dominant-baseline="middle"
+          class="neon-letter"
+          style="animation-delay: 0.2502740165218711s;">
+          E
+        </text>
+        <text x="285" y="150" 
+          font-family="'Righteous', cursive" 
+          font-size="80" 
+          fill="none"
+          stroke="#ff00ff"
+          stroke-width="1"
+          text-anchor="middle"
+          dominant-baseline="middle"
+          class="neon-letter"
+          style="animation-delay: 0.8293927528429776s;">
+          L
+        </text>
+        <text x="341" y="150" 
+          font-family="'Righteous', cursive" 
+          font-size="80" 
+          fill="none"
+          stroke="#ff00ff"
+          stroke-width="1"
+          text-anchor="middle"
+          dominant-baseline="middle"
+          class="neon-letter"
+          style="animation-delay: 0.2845157675910741s;">
+          L
+        </text>
+        <text x="397" y="150" 
+          font-family="'Righteous', cursive" 
+          font-size="80" 
+          fill="none"
+          stroke="#ff00ff"
+          stroke-width="1"
+          text-anchor="middle"
+          dominant-baseline="middle"
+          class="neon-letter"
+          style="animation-delay: 0.32317710667848587s;">
+          C
+        </text>
+        <text x="453" y="150" 
+          font-family="'Righteous', cursive" 
+          font-size="80" 
+          fill="none"
+          stroke="#ff00ff"
+          stroke-width="1"
+          text-anchor="middle"
+          dominant-baseline="middle"
+          class="neon-letter"
+          style="animation-delay: 0.8073950288817286s;">
+          O
+        </text>
+        <text x="509" y="150" 
+          font-family="'Righteous', cursive" 
+          font-size="80" 
+          fill="none"
+          stroke="#ff00ff"
+          stroke-width="1"
+          text-anchor="middle"
+          dominant-baseline="middle"
+          class="neon-letter"
+          style="animation-delay: 0.5169086579699069s;">
+          M
+        </text>
+        <text x="565" y="150" 
+          font-family="'Righteous', cursive" 
+          font-size="80" 
+          fill="none"
+          stroke="#ff00ff"
+          stroke-width="1"
+          text-anchor="middle"
+          dominant-baseline="middle"
+          class="neon-letter"
+          style="animation-delay: 0.48868599720299244s;">
+          E
+        </text>
+</svg>
