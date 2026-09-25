@@ -1,49 +1,634 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1668 260" role="img" aria-label="Glitch reveal for Syamsul Putra Rinjani">
-      <defs>
-        <linearGradient id="abr-bg" x1="0" y1="0" x2="0" y2="1">
-          <stop offset="0%" stop-color="#0a0a12" />
-          <stop offset="100%" stop-color="#040408" />
-        </linearGradient>
-        <pattern id="abr-scan" width="1" height="5" patternUnits="userSpaceOnUse">
-          <rect width="1" height="1" fill="#a5f3fc" opacity="0.045" />
-        </pattern>
-        <clipPath id="abr-s1"><rect x="114" y="84" width="1440" height="16" /></clipPath>
-        <clipPath id="abr-s2"><rect x="114" y="122" width="1440" height="11" /></clipPath>
-        <style>
-            @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500;700&amp;family=Orbitron:wght@400;700;900&amp;display=swap');
-          @keyframes abr-cy {
-            0% { transform: translate(-22px, 2px); opacity: 0.9; }
-            18% { transform: translate(14px, -2px); }
-            36% { transform: translate(-11px, 1px); }
-            55% { transform: translate(7px, -1px); }
-            75% { transform: translate(-3px, 0); }
-            100% { transform: translate(0, 0); opacity: 0.85; }
-          }
-          @keyframes abr-mg {
-            0% { transform: translate(22px, -2px); opacity: 0.9; }
-            18% { transform: translate(-14px, 2px); }
-            36% { transform: translate(11px, -1px); }
-            55% { transform: translate(-7px, 1px); }
-            75% { transform: translate(3px, 0); }
-            100% { transform: translate(0, 0); opacity: 0.85; }
-          }
-          .abr-cy { animation: abr-cy 0.95s cubic-bezier(0.16, 1, 0.3, 1) infinite; }
-          .abr-mg { animation: abr-mg 0.95s cubic-bezier(0.16, 1, 0.3, 1) infinite; }
-          @keyframes abr-main { 0% { opacity: 0; } 8% { opacity: 1; } 14% { opacity: 0.25; } 22% { opacity: 1; } 30% { opacity: 0.5; } 40%, 100% { opacity: 1; } }
-          .abr-main { opacity: 0; animation: abr-main 0.9s steps(1, end) infinite; }
-          @keyframes abr-slice1 { 0% { transform: translateX(26px); opacity: 1; } 45% { transform: translateX(-15px); } 70% { transform: translateX(6px); opacity: 1; } 100% { transform: translateX(0); opacity: 0; } }
-          @keyframes abr-slice2 { 0% { transform: translateX(-30px); opacity: 1; } 45% { transform: translateX(17px); } 70% { transform: translateX(-7px); opacity: 1; } 100% { transform: translateX(0); opacity: 0; } }
-          .abr-slice1 { animation: abr-slice1 0.85s steps(4, end) infinite; }
-          .abr-slice2 { animation: abr-slice2 0.85s steps(4, end) infinite; }
-          @keyframes abr-flicker { 0%, 100% { opacity: 1; } 50% { opacity: 0.55; } }
-          .abr-scanline { animation: abr-flicker 2.4s steps(2, end) infinite; }
-        </style>
-      </defs>
-      <rect width="1668" height="260" fill="url(#abr-bg)" />
-      <text class="abr-cy" x="834" y="150" text-anchor="middle" font-size="100" font-family="'Orbitron','Rajdhani','Segoe UI',sans-serif" font-weight="700" letter-spacing="2" fill="#22d3ee">Syamsul Putra Rinjani</text>
-      <text class="abr-mg" x="834" y="150" text-anchor="middle" font-size="100" font-family="'Orbitron','Rajdhani','Segoe UI',sans-serif" font-weight="700" letter-spacing="2" fill="#e879f9">Syamsul Putra Rinjani</text>
-      <text class="abr-main" x="834" y="150" text-anchor="middle" font-size="100" font-family="'Orbitron','Rajdhani','Segoe UI',sans-serif" font-weight="700" letter-spacing="2" fill="#f8fafc">Syamsul Putra Rinjani</text>
-      <g clip-path="url(#abr-s1)"><text class="abr-slice1" x="834" y="150" text-anchor="middle" font-size="100" font-family="'Orbitron','Rajdhani','Segoe UI',sans-serif" font-weight="700" letter-spacing="2" fill="#f8fafc">Syamsul Putra Rinjani</text></g>
-      <g clip-path="url(#abr-s2)"><text class="abr-slice2" x="834" y="150" text-anchor="middle" font-size="100" font-family="'Orbitron','Rajdhani','Segoe UI',sans-serif" font-weight="700" letter-spacing="2" fill="#f8fafc">Syamsul Putra Rinjani</text></g>
-      <rect class="abr-scanline" width="1668" height="260" fill="url(#abr-scan)" />
-    </svg>
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 1668 360"
+     role="img"
+     aria-label="Glitch reveal for Syamsul Putra Rinjani, game developer">
+
+	<defs>
+
+		<linearGradient id="abr-bg" x1="0" y1="0" x2="0" y2="1">
+			<stop offset="0%" stop-color="#0a0a12"/>
+			<stop offset="100%" stop-color="#040408"/>
+		</linearGradient>
+
+		<pattern id="abr-scan"
+				 width="1"
+				 height="5"
+				 patternUnits="userSpaceOnUse">
+			<rect width="1"
+				  height="1"
+				  fill="#a5f3fc"
+				  opacity="0.045"/>
+		</pattern>
+
+		<clipPath id="abr-s1">
+			<rect x="114" y="128" width="1440" height="18"/>
+		</clipPath>
+
+		<clipPath id="abr-s2">
+			<rect x="114" y="170" width="1440" height="14"/>
+		</clipPath>
+
+		<style>
+
+			@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500;700&amp;family=Orbitron:wght@400;700;900&amp;display=swap');
+
+
+			/* =========================
+			SMALL TOP TEXT
+			========================= */
+
+			@keyframes abr-subtitle {
+
+			0%,
+			3% {
+			opacity: 0;
+			transform: translateY(-5px);
+			}
+
+			7% {
+			opacity: 1;
+			transform: translateY(0);
+			}
+
+			12% {
+			opacity: 0.35;
+			}
+
+			16%,
+			78% {
+			opacity: 1;
+			transform: translateY(0);
+			}
+
+			82% {
+			opacity: 0.45;
+			}
+
+			86% {
+			opacity: 1;
+			}
+
+			100% {
+			opacity: 1;
+			}
+
+			}
+
+			.abr-subtitle {
+			animation:
+			abr-subtitle
+			5s
+			steps(1, end)
+			infinite;
+			}
+
+
+			/* =========================
+			CYAN GLITCH
+			========================= */
+
+			@keyframes abr-cy {
+
+			0% {
+			transform: translate(-22px, 2px);
+			opacity: 0;
+			}
+
+			4% {
+			opacity: 0.9;
+			}
+
+			8% {
+			transform: translate(14px, -2px);
+			}
+
+			12% {
+			transform: translate(-11px, 1px);
+			}
+
+			17% {
+			transform: translate(7px, -1px);
+			}
+
+			22% {
+			transform: translate(-3px, 0);
+			opacity: 0.85;
+			}
+
+			28%,
+			78% {
+			transform: translate(0, 0);
+			opacity: 0;
+			}
+
+			82% {
+			transform: translate(-10px, 1px);
+			opacity: 0.75;
+			}
+
+			86% {
+			transform: translate(6px, -1px);
+			opacity: 0.6;
+			}
+
+			90%,
+			100% {
+			transform: translate(0, 0);
+			opacity: 0;
+			}
+
+			}
+
+			.abr-cy {
+			animation:
+			abr-cy
+			5s
+			cubic-bezier(0.16, 1, 0.3, 1)
+			infinite;
+			}
+
+
+			/* =========================
+			MAGENTA GLITCH
+			========================= */
+
+			@keyframes abr-mg {
+
+			0% {
+			transform: translate(22px, -2px);
+			opacity: 0;
+			}
+
+			4% {
+			opacity: 0.9;
+			}
+
+			8% {
+			transform: translate(-14px, 2px);
+			}
+
+			12% {
+			transform: translate(11px, -1px);
+			}
+
+			17% {
+			transform: translate(-7px, 1px);
+			}
+
+			22% {
+			transform: translate(3px, 0);
+			opacity: 0.85;
+			}
+
+			28%,
+			78% {
+			transform: translate(0, 0);
+			opacity: 0;
+			}
+
+			82% {
+			transform: translate(9px, -1px);
+			opacity: 0.75;
+			}
+
+			86% {
+			transform: translate(-5px, 1px);
+			opacity: 0.6;
+			}
+
+			90%,
+			100% {
+			transform: translate(0, 0);
+			opacity: 0;
+			}
+
+			}
+
+			.abr-mg {
+			animation:
+			abr-mg
+			5s
+			cubic-bezier(0.16, 1, 0.3, 1)
+			infinite;
+			}
+
+
+			/* =========================
+			MAIN TEXT
+			========================= */
+
+			@keyframes abr-main {
+
+			0% {
+			opacity: 0;
+			}
+
+			4% {
+			opacity: 1;
+			}
+
+			7% {
+			opacity: 0.25;
+			}
+
+			10% {
+			opacity: 1;
+			}
+
+			13% {
+			opacity: 0.45;
+			}
+
+			16%,
+			76% {
+			opacity: 1;
+			}
+
+			79% {
+			opacity: 0.45;
+			}
+
+			82% {
+			opacity: 1;
+			}
+
+			86% {
+			opacity: 0.7;
+			}
+
+			90%,
+			100% {
+			opacity: 1;
+			}
+
+			}
+
+			.abr-main {
+			opacity: 0;
+			animation:
+			abr-main
+			5s
+			steps(1, end)
+			infinite;
+			}
+
+
+			/* =========================
+			TOP GLITCH SLICE
+			========================= */
+
+			@keyframes abr-slice1 {
+
+			0% {
+			transform: translateX(26px);
+			opacity: 0;
+			}
+
+			5% {
+			opacity: 1;
+			}
+
+			9% {
+			transform: translateX(-15px);
+			}
+
+			13% {
+			transform: translateX(6px);
+			}
+
+			17% {
+			transform: translateX(0);
+			opacity: 0;
+			}
+
+			80% {
+			transform: translateX(0);
+			opacity: 0;
+			}
+
+			84% {
+			transform: translateX(18px);
+			opacity: 1;
+			}
+
+			88% {
+			transform: translateX(-8px);
+			}
+
+			92% {
+			transform: translateX(0);
+			opacity: 0;
+			}
+
+			100% {
+			opacity: 0;
+			}
+
+			}
+
+			.abr-slice1 {
+			animation:
+			abr-slice1
+			5s
+			steps(4, end)
+			infinite;
+			}
+
+
+			/* =========================
+			BOTTOM GLITCH SLICE
+			========================= */
+
+			@keyframes abr-slice2 {
+
+			0% {
+			transform: translateX(-30px);
+			opacity: 0;
+			}
+
+			5% {
+			opacity: 1;
+			}
+
+			9% {
+			transform: translateX(17px);
+			}
+
+			13% {
+			transform: translateX(-7px);
+			}
+
+			17% {
+			transform: translateX(0);
+			opacity: 0;
+			}
+
+			80% {
+			transform: translateX(0);
+			opacity: 0;
+			}
+
+			84% {
+			transform: translateX(-20px);
+			opacity: 1;
+			}
+
+			88% {
+			transform: translateX(9px);
+			}
+
+			92% {
+			transform: translateX(0);
+			opacity: 0;
+			}
+
+			100% {
+			opacity: 0;
+			}
+
+			}
+
+			.abr-slice2 {
+			animation:
+			abr-slice2
+			5s
+			steps(4, end)
+			infinite;
+			}
+
+
+			/* =========================
+			BOTTOM TEXT
+			========================= */
+
+			@keyframes abr-role {
+
+			0%,
+			5% {
+			opacity: 0;
+			transform: translateY(5px);
+			}
+
+			10% {
+			opacity: 1;
+			transform: translateY(0);
+			}
+
+			15% {
+			opacity: 0.4;
+			}
+
+			20%,
+			78% {
+			opacity: 1;
+			transform: translateY(0);
+			}
+
+			82% {
+			opacity: 0.45;
+			}
+
+			86% {
+			opacity: 1;
+			}
+
+			100% {
+			opacity: 1;
+			}
+
+			}
+
+			.abr-role {
+			animation:
+			abr-role
+			5s
+			steps(1, end)
+			infinite;
+			}
+
+
+			/* =========================
+			SCANLINE
+			========================= */
+
+			@keyframes abr-flicker {
+
+			0%,
+			70%,
+			100% {
+			opacity: 1;
+			}
+
+			72% {
+			opacity: 0.7;
+			}
+
+			74% {
+			opacity: 1;
+			}
+
+			76% {
+			opacity: 0.55;
+			}
+
+			78% {
+			opacity: 1;
+			}
+
+			}
+
+			.abr-scanline {
+			animation:
+			abr-flicker
+			5s
+			steps(2, end)
+			infinite;
+			}
+
+		</style>
+
+	</defs>
+
+
+	<!-- BACKGROUND -->
+
+	<rect
+	  width="1668"
+	  height="360"
+	  fill="url(#abr-bg)"
+  />
+
+
+	<!-- TOP TEXT -->
+
+	<text
+	  class="abr-subtitle"
+	  x="834"
+	  y="105"
+	  text-anchor="middle"
+	  font-size="30"
+	  font-family="'Rajdhani','Segoe UI',sans-serif"
+	  font-weight="500"
+	  letter-spacing="7"
+	  fill="#a5f3fc"
+  >
+		Github of
+	</text>
+
+
+	<!-- CYAN GLITCH -->
+
+	<text
+	  class="abr-cy"
+	  x="834"
+	  y="195"
+	  text-anchor="middle"
+	  font-size="100"
+	  font-family="'Orbitron','Rajdhani','Segoe UI',sans-serif"
+	  font-weight="700"
+	  letter-spacing="2"
+	  fill="#22d3ee"
+  >
+		Syamsul Putra Rinjani
+	</text>
+
+
+	<!-- MAGENTA GLITCH -->
+
+	<text
+	  class="abr-mg"
+	  x="834"
+	  y="195"
+	  text-anchor="middle"
+	  font-size="100"
+	  font-family="'Orbitron','Rajdhani','Segoe UI',sans-serif"
+	  font-weight="700"
+	  letter-spacing="2"
+	  fill="#e879f9"
+  >
+		Syamsul Putra Rinjani
+	</text>
+
+
+	<!-- MAIN TEXT -->
+
+	<text
+	  class="abr-main"
+	  x="834"
+	  y="195"
+	  text-anchor="middle"
+	  font-size="100"
+	  font-family="'Orbitron','Rajdhani','Segoe UI',sans-serif"
+	  font-weight="700"
+	  letter-spacing="2"
+	  fill="#f8fafc"
+  >
+		Syamsul Putra Rinjani
+	</text>
+
+
+	<!-- TOP GLITCH SLICE -->
+
+	<g clip-path="url(#abr-s1)">
+		<text
+		  class="abr-slice1"
+		  x="834"
+		  y="195"
+		  text-anchor="middle"
+		  font-size="100"
+		  font-family="'Orbitron','Rajdhani','Segoe UI',sans-serif"
+		  font-weight="700"
+		  letter-spacing="2"
+		  fill="#f8fafc"
+    >
+			Syamsul Putra Rinjani
+		</text>
+	</g>
+
+
+	<!-- BOTTOM GLITCH SLICE -->
+
+	<g clip-path="url(#abr-s2)">
+		<text
+		  class="abr-slice2"
+		  x="834"
+		  y="195"
+		  text-anchor="middle"
+		  font-size="100"
+		  font-family="'Orbitron','Rajdhani','Segoe UI',sans-serif"
+		  font-weight="700"
+		  letter-spacing="2"
+		  fill="#f8fafc"
+    >
+			Syamsul Putra Rinjani
+		</text>
+	</g>
+
+
+	<!-- BOTTOM ROLE -->
+
+	<text
+	  class="abr-role"
+	  x="834"
+	  y="255"
+	  text-anchor="middle"
+	  font-size="27"
+	  font-family="'Rajdhani','Segoe UI',sans-serif"
+	  font-weight="500"
+	  letter-spacing="6"
+	  fill="#e879f9"
+  >
+		GAME DEVELOPER
+	</text>
+
+
+	<!-- SCANLINES -->
+
+	<rect
+	  class="abr-scanline"
+	  width="1668"
+	  height="360"
+	  fill="url(#abr-scan)"
+  />
+
+</svg>
