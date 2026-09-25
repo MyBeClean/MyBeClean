@@ -27,14 +27,14 @@
             75% { transform: translate(3px, 0); }
             100% { transform: translate(0, 0); opacity: 0.85; }
           }
-          .abr-cy { animation: abr-cy 0.95s cubic-bezier(0.16, 1, 0.3, 1) forwards; }
-          .abr-mg { animation: abr-mg 0.95s cubic-bezier(0.16, 1, 0.3, 1) forwards; }
+          .abr-cy { animation: abr-cy 0.95s cubic-bezier(0.16, 1, 0.3, 1) infinite; }
+          .abr-mg { animation: abr-mg 0.95s cubic-bezier(0.16, 1, 0.3, 1) infinite; }
           @keyframes abr-main { 0% { opacity: 0; } 8% { opacity: 1; } 14% { opacity: 0.25; } 22% { opacity: 1; } 30% { opacity: 0.5; } 40%, 100% { opacity: 1; } }
-          .abr-main { opacity: 0; animation: abr-main 0.9s steps(1, end) forwards; }
+          .abr-main { opacity: 0; animation: abr-main 0.9s steps(1, end) infinite; }
           @keyframes abr-slice1 { 0% { transform: translateX(26px); opacity: 1; } 45% { transform: translateX(-15px); } 70% { transform: translateX(6px); opacity: 1; } 100% { transform: translateX(0); opacity: 0; } }
           @keyframes abr-slice2 { 0% { transform: translateX(-30px); opacity: 1; } 45% { transform: translateX(17px); } 70% { transform: translateX(-7px); opacity: 1; } 100% { transform: translateX(0); opacity: 0; } }
-          .abr-slice1 { animation: abr-slice1 0.85s steps(4, end) forwards; }
-          .abr-slice2 { animation: abr-slice2 0.85s steps(4, end) forwards; }
+          .abr-slice1 { animation: abr-slice1 0.85s steps(4, end) infinite; }
+          .abr-slice2 { animation: abr-slice2 0.85s steps(4, end) infinite; }
           @keyframes abr-flicker { 0%, 100% { opacity: 1; } 50% { opacity: 0.55; } }
           .abr-scanline { animation: abr-flicker 2.4s steps(2, end) infinite; }
         </style>
