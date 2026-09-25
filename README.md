@@ -3,9 +3,7 @@
 
 ---
 
-## hi, i'm **syamsul putra rinjani**
-
-you can call me **syamsul**.
+<img src="https://raw.githubusercontent.com/MyBeClean/MyBeClean/main/Assets/svg/name.svg">
 
 i'm a student who enjoys **building things with code and creativity**.
 
