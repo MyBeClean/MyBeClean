@@ -1,10 +1,5 @@
-# 👋 welcome to my github
 
-<p align="center">
-
-<img src="https://i.8upload.com/image/cd87db568350b956/rapidsave-com-2hrrqkkxr3xf1.gif">
-
-</p>
+<img src="https://raw.githubusercontent.com/MyBeClean/MyBeClean/main/Assets/svg/wellcome.svg">
 
 ---
 
@@ -23,6 +18,14 @@ my main interests are:
 - 🔬 science & technology
 
 > **curiosity is where most of my projects start.**
+
+---
+
+<p align="center">
+
+<img src="https://i.8upload.com/image/cd87db568350b956/rapidsave-com-2hrrqkkxr3xf1.gif">
+
+</p>
 
 ---
 
