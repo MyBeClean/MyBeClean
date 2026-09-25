@@ -1,133 +1,238 @@
+<p align="center">
 
 <img src="https://raw.githubusercontent.com/MyBeClean/MyBeClean/main/Assets/svg/wellcome.svg">
 
----
-
-<img src="https://raw.githubusercontent.com/MyBeClean/MyBeClean/main/Assets/svg/name.svg">
-
-i'm a student who enjoys **building things with code and creativity**.
-
-my main interests are:
-
-- 🎮 game development
-- 💻 programming
-- 🎨 3d modeling
-- 🎬 video editing
-- 🔬 science & technology
-
-> **curiosity is where most of my projects start.**
-
----
+</p>
 
 <p align="center">
 
-<img src="https://i.8upload.com/image/cd87db568350b956/rapidsave-com-2hrrqkkxr3xf1.gif">
+<img src="https://raw.githubusercontent.com/MyBeClean/MyBeClean/main/Assets/svg/name.svg">
+
+</p>
+
+<p align="center">
+
+<b>student • solo developer • programmer • 3d artist • creator</b>
+
+</p>
+
+<p align="center">
+
+building things with code, creativity, and curiosity.
 
 </p>
 
 ---
 
-## 📖 about me
+## 👋 about me
 
-i learn best by **experimenting, solving problems, and understanding how things work** rather than simply memorizing them.
+i'm a student interested in **game development, programming, 3d art, science, and technology**.
 
-i enjoy taking an idea, breaking it into smaller problems, experimenting with different approaches, and eventually turning it into something that actually works.
+i learn by **building, experimenting, debugging, and understanding how things work** rather than relying on memorization.
 
-outside of programming, i enjoy **games, science, technology, physics, space, and exploring random ideas**.
+i enjoy taking an idea, breaking it into smaller problems, testing different approaches, and turning the result into something that actually works.
 
-sometimes the experiments work.
+i'm currently developing projects independently, handling different parts of the process from **concept and programming to 3d assets, visuals, debugging, and presentation**.
 
-sometimes they completely destroy the project.
-
-both are technically learning. 🗿
+> **curiosity is where most of my projects start.**
 
 ---
 
-## 🧠 what i can do
+## 🧠 how i work
 
-| area | what i do |
-|---|---|
-| 🎮 game development | gameplay systems, mechanics, interaction, debugging |
-| 💻 programming | writing, understanding, debugging, and improving code |
-| 🧩 problem solving | logic, experimentation, and troubleshooting |
-| 🎨 3d | modeling and editing 3d assets |
-| 🎬 video | editing and visual content |
-| 🔧 debugging | finding problems and figuring out why they happen |
-| 🌱 learning | independently exploring new tools and technologies |
+my usual workflow looks something like this:
+
+```text
+idea
+ ↓
+research
+ ↓
+design
+ ↓
+prototype
+ ↓
+experiment
+ ↓
+break things
+ ↓
+debug
+ ↓
+understand
+ ↓
+improve
+ ↓
+build again
+```
+
+i prefer understanding **why something works** instead of simply copying a solution.
+
+this applies to programming, game mechanics, 3d modeling, visual effects, and even random questions about physics that somehow turn into another project.
+
+---
+
+## 🎮 game development
+
+game development is currently my main area of exploration.
+
+i'm interested in:
+
+* gameplay systems
+* game mechanics
+* player interaction
+* programming and game logic
+* debugging
+* level design
+* 3d environments
+* asset creation
+* atmosphere
+* sound design
+* horror games
+* experimental gameplay
+
+### 🔬 current project
+
+**The Contradiction**
+
+an experimental indoor horror game built around the idea of **ordinary situations gradually becoming increasingly abnormal**.
+
+the project explores:
+
+* environmental storytelling
+* contradiction-based gameplay
+* unusual movement
+* psychological tension
+* experimental level design
+* sound and atmosphere
+* visual presentation
+
+the project is being developed as an independent project, with the development process covering **planning, asset creation, programming, testing, debugging, and iteration**.
 
 ---
 
 ## 💻 programming
+
+<p align="center">
+
+<img
+src="https://raw.githubusercontent.com/MyBeClean/MyBeClean/main/Assets/svg/languages.svg"
+alt="Programming language activity"
+/>
+
+</p>
+
+<p align="center">
+
+<sub>
+automatically generated from my public repositories
+</sub>
+
+</p>
+
+the banner above represents **code usage across my repositories**, not programming skill level.
+
+### languages i work with
+
+* **C#**
+* **Python**
+* **C++**
+* **GDScript**
+
+---
+
+## 🛠️ technologies & tools
 
 <table>
 <tr>
 
 <td width="50%" valign="top">
 
-### 💻 languages
+### 💻 programming
 
-| skill | experience |
-|---|---|
-| C# | █████████░ |
-| Python | ████████░░ |
-| C++ | █████░░░░░ |
+* C#
+* Python
+* C++
+* GDScript
+* Git
+* GitHub
+* command line workflows
 
 </td>
 
 <td width="50%" valign="top">
 
-### 🎮 game engines
+### 🎮 game development
 
-| engine | experience |
-|---|---|
-| Unity | ███████░░░ |
-| Godot | ███████░░░ |
+* Unity
+* Godot
+* gameplay programming
+* game systems
+* debugging
+* prototyping
+* level design
+
+</td>
+
+</tr>
+
+<tr>
+
+<td width="50%" valign="top">
+
+### 🎨 3d & creative
+
+* Blender
+* 3d modeling
+* environment creation
+* asset creation
+* video editing
+* visual effects
+* atmosphere design
+
+</td>
+
+<td width="50%" valign="top">
+
+### 🔧 development environment
+
+* VS Code
+* Termux
+* Linux
+* Git workflows
+* GitHub Actions
+* open-source tools
 
 </td>
 
 </tr>
 </table>
 
-> these bars represent my current experience, not some scientifically calculated developer power level. 😹
+---
+
+## ⚙️ development mindset
+
+i enjoy working on problems where the solution isn't immediately obvious.
+
+my approach is usually:
+
+**observe → break down → experiment → debug → understand → improve**
+
+i don't expect every experiment to work.
+
+a failed experiment can still reveal something useful about the system being built.
 
 ---
 
-## 🛠️ tools i use
+## 📊 github activity
 
 <p align="center">
 
-<img src="https://cdn.phototourl.com/free/2026-09-21-024d26d3-163f-4f57-94b2-40db62e0b7e1.png" width="180">
-
-<img src="https://cdn.phototourl.com/free/2026-09-21-a188fcf2-844e-4974-9af7-596e2b85876a.png" width="180">
+<img src="https://ghstats.dev/api/card?username=MyBeClean" alt="GitHub statistics">
 
 </p>
 
 <p align="center">
 
-**unity** &nbsp; • &nbsp; **godot** &nbsp; • &nbsp; **blender** &nbsp; • &nbsp; **python** &nbsp; • &nbsp; **c#** &nbsp; • &nbsp; **c++**
-
-</p>
-
----
-
-## 📊 github statistics
-
-<p align="center">
-
-<img  
-  src="https://ghstats.dev/api/card?username=MyBeClean"  
-  alt="github stats"
-/>
-
-</p>
-
----
-
-## 🔥 contribution streak
-
-<p align="center">
-
-<img src="https://streak-stats.demolab.com/?user=MyBeClean&hide_border=true&background=040408&ring=22d3ee&fire=e879f9&currStreakNum=f8fafc&sideNums=f8fafc&currStreakLabel=a5f3fc&sideLabels=a5f3fc&dates=94a3b8">
+<img src="https://streak-stats.demolab.com/?user=MyBeClean&hide_border=true&background=040408&ring=22d3ee&fire=e879f9&currStreakNum=f8fafc&sideNums=f8fafc&currStreakLabel=a5f3fc&sideLabels=a5f3fc&dates=94a3b8" alt="GitHub contribution streak">
 
 </p>
 
@@ -135,16 +240,32 @@ both are technically learning. 🗿
 
 ## 🚀 currently exploring
 
-right now, i'm mainly exploring:
+* 🎮 game development
+* 🧠 gameplay programming
+* 🎨 3d environments and assets
+* 💻 programming and system design
+* 🔬 science and technology
+* ⚛️ physics
+* 🚀 space
+* 🐧 Linux and open source
+* 🛠️ automation and development workflows
+* 🧪 turning ideas into working prototypes
 
-- 🎮 game development
-- 🧠 gameplay programming
-- 🎨 3d environments and assets
-- 💻 programming and system design
-- 🔬 technology, physics, and space
-- 🛠️ building projects from ideas into working prototypes
+---
 
-> **learn → experiment → break things → understand → rebuild → repeat**
+## 🌌 beyond code
+
+i'm also interested in **physics, space, computers, technology, digital art, video editing, and experimentation**.
+
+i especially enjoy questions involving **cause and effect, systems, physical phenomena, and unexpected behavior**.
+
+sometimes a simple question turns into an experiment.
+
+sometimes the experiment turns into a project.
+
+the project then creates three new problems.
+
+that is usually how it goes.
 
 ---
 
@@ -152,10 +273,10 @@ right now, i'm mainly exploring:
 
 <p align="center">
 
-<img  
-  src="https://opengameart.org/sites/default/files/palme-animated-x2.gif"  
-  width="220"  
-  alt="animated pixel palm tree"
+<img
+src="https://opengameart.org/sites/default/files/palme-animated-x2.gif"
+width="220"
+alt="animated pixel palm tree"
 />
 
 </p>
@@ -168,13 +289,15 @@ right now, i'm mainly exploring:
 
 ---
 
-## 🐈 a little something about me
+## 📌 interests
 
-i like **games, technology, science, space, editing, and weird ideas**.
+<p align="center">
 
-i also have a tendency to ask questions that somehow begin with programming and end somewhere around physics, the universe, or why a particular piece of code decided to break.
+<b>
+GAME DEVELOPMENT • PROGRAMMING • 3D • SCIENCE • PHYSICS • SPACE • TECHNOLOGY • LINUX • OPEN SOURCE
+</b>
 
-that's probably how most of my projects start.
+</p>
 
 ---
 
@@ -188,6 +311,6 @@ that's probably how most of my projects start.
 
 <p align="center">
 
-🌴 &nbsp; 🌴 &nbsp; 🌴 &nbsp; 🌴 &nbsp; 🌴
+🌴   🌴   🌴   🌴   🌴
 
 </p>
