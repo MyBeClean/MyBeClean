@@ -308,9 +308,3 @@ GAME DEVELOPMENT • PROGRAMMING • 3D • SCIENCE • PHYSICS • SPACE • TE
 **keep learning. keep creating. keep experimenting.**
 
 </p>
-
-<p align="center">
-
-🌴   🌴   🌴   🌴   🌴
-
-</p>
