@@ -12,7 +12,7 @@
 
 ---
 
-## 👋 about me
+## about me
 
 i'm a student interested in **programming, game development, 3d graphics, science, and technology**.
 
@@ -20,7 +20,7 @@ i enjoy exploring ideas, building things from scratch, and understanding the sys
 
 i'm interested in both the creative and technical sides of development, from designing gameplay and creating 3d assets to writing code and figuring out why something doesn't work as expected.
 
-## 🧠 how i think
+## how i think
 
 i approach problems with curiosity and a willingness to experiment.
 
@@ -30,18 +30,18 @@ my usual process is simple:
 
 i prefer knowing why something works instead of simply copying a solution. mistakes and unexpected results are part of learning, even when they create three more problems to solve.
 
-## 🎯 interests
+## interests
 
-- 🎮 game development and gameplay systems
-- 💻 programming and software development
-- 🧩 system design and problem-solving
-- 🎨 3d modeling and digital art
-- 🔬 science and physics
-- 🌌 space and technology
-- 🐧 linux and open source
-- 🎬 video editing and visual effects
+- game development and gameplay systems
+- programming and software development
+- system design and problem-solving
+- 3d modeling and digital art
+- science and physics
+- space and technology
+- linux and open source
+- video editing and visual effects
 
-## 🛠️ languages & tools
+## languages & tools
 
 <p align="center">
   <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white">
@@ -53,7 +53,7 @@ i prefer knowing why something works instead of simply copying a solution. mista
   <img src="https://img.shields.io/badge/Blender-E87D0D?style=for-the-badge&logo=blender&logoColor=white">
 </p>
 
-## 💻 top languages
+## top languages
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/MyBeClean/MyBeClean/main/Assets/svg/languages.svg" alt="Top programming languages">
@@ -63,13 +63,13 @@ i prefer knowing why something works instead of simply copying a solution. mista
   <sub>based on code activity across my public repositories, not a measure of skill level.</sub>
 </p>
 
-## 📊 github activity
+## github activity
 
 <p align="center">
   <img src="https://ghstats.dev/api/card?username=MyBeClean" alt="GitHub statistics">
 </p>
 
-## 🔥 commit streak
+## commit streak
 
 <p align="center">
   <img src="https://streak-stats.demolab.com/?user=MyBeClean&hide_border=true&background=040408&ring=22d3ee&fire=e879f9&currStreakNum=f8fafc&sideNums=f8fafc&currStreakLabel=a5f3fc&sideLabels=a5f3fc&dates=94a3b8" alt="GitHub contribution streak">
@@ -82,5 +82,5 @@ i prefer knowing why something works instead of simply copying a solution. mista
 </p>
 
 <p align="center">
-  <b>keep learning. keep creating. keep experimenting. 🐈</b>
+  <b>keep learning. keep creating. keep experimenting.</b>
 </p>
